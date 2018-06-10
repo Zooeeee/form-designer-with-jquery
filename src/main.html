@@ -2,20 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
-
-    <script src="../node_modules/jquery/dist/jquery.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script src="../node_modules/lodash/lodash.min.js"></script>
+    <script src  = "js/jquery-3.3.1.min.js"></script>
+    <script src = "js/jquery.js"></script>
+    <script src = "js/jquery-ui.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
     <script src="js/main.js"></script>
-
     <title>Form Designer</title>
+          
 </head>
-
 <body>
 <div>
-    <div id="container"></div>
+    <div id="main">
+        <div id = "dialog" title = "添加">
+            <p>添加一个文本框或日期框</p>
+        </div>
+        <div id = "input">
+            <input type = "button" id = "view" value="预览"/>
+            <input type = "button" id="add" value="添加" />
+        </div>
+        <form id = "spots">
+
+        </form>
+    </div>
 </div>
 </body>
 </html>
